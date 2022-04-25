@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+    <module name="module_crm_chatbot">
+        <table name="ChatBot">
+            <columns>
+                <column name="ID" data-type="BIGINT"/>
+                <column name="QUESTION" data-type="CHAR" nullable="false"/>
+                <column name="ANSWER" data-type="CHAR" nullable="false"/>
+            </columns>
+            <primary-key name="ChatBot_PK" column="ID" sequence-generator="ChatBot.ID" />
+        </table>
+    </module>
+</metadata>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dumpdata>
+
+    <module name="tlc_crm_crud">
+        <MCMFieldSQLTable ID="MCMFieldSQLTable:ID:CO:2" TABLE_NAME="ChatBot"/>
+
+        <MCMDataProvider ID="MCMDataProvider:ID:CO:2" TYPE="2" NAME="chat">
+            <MCMFields ID="MCMFields:ID:CO:3" NAME="id" DISPLAY_NAME="sqloperation_crm_crud_id" PRIMARY="true" SORT="2" SEARCHABLE="false" ORDER="3" HIDDEN="true">
+                <MCMFieldSQLSource ID="MCMFieldSQLSource:ID:CO:3" TABLE_ID="MCMFieldSQLTable:ID:CO:2" COLUMN="ID" TYPE="" FLAG=""/>
+            </MCMFields>>
+            <MCMFields ID="MCMFields:ID:CO:4" NAME="question" DISPLAY_NAME="sqloperation_crm_crud_question" SORT="2" SEARCHABLE="true" ORDER="4" HIDDEN="false">
+                <MCMFieldSQLSource ID="MCMFieldSQLSource:ID:CO:4" TABLE_ID="MCMFieldSQLTable:ID:CO:2" COLUMN="QUESTION" TYPE="" FLAG=""/>
+            </MCMFields>
+            <MCMFields ID="MCMFields:ID:CO:4" NAME="answer" DISPLAY_NAME="sqloperation_crm_crud_answer" SORT="2" SEARCHABLE="true" ORDER="4" HIDDEN="false">
+                <MCMFieldSQLSource ID="MCMFieldSQLSource:ID:CO:4" TABLE_ID="MCMFieldSQLTable:ID:CO:2" COLUMN="ANSWER" TYPE="" FLAG=""/>
+            </MCMFields>
+        </MCMDataProvider>
+    </module>
+</dumpdata>
